@@ -8,19 +8,23 @@ then display them on screen
 */
 
 #include <iostream>
-
+#include <string>
 int main()
 {
 	char firstinitial;
 	char middleinitial;
 	char lastinitial;
+	std::string firstname;
 	std::cout << "please enter the initial of your first name";
 	std::cin >> firstinitial;
 	std::cout << "please enter the initial of your middle name";
 	std::cin >> middleinitial;
 	std::cout << "please enter the initial of your last name";
 	std::cin >> lastinitial;
-	std::cout << "your initials are:" << firstinitial << middleinitial << lastinitial;
+	std::cout << "your initials are:" << firstinitial << middleinitial << lastinitial<< std::endl;
+	std::cout << "please enter first name";
+	std::cin >> firstname;
+	std::cout << "your first name is:" << firstname;
 }
 
 
